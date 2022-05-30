@@ -1,0 +1,246 @@
+CRITICAL - 2020-11-25 21:31:14 --> Undefined index: id_user_mekanik
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\data yudhi M...', 37, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(51): App\Models\AuthModel->getValidateNIK('308006')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->getValidateNIK()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-25 21:31:48 --> Undefined index: id_mekanik_member
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\data yudhi M...', 37, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(51): App\Models\AuthModel->getValidateNIK('308006')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->getValidateNIK()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-25 21:33:08 --> Undefined index: id_user_mekanik
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\data yudhi M...', 57, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->getValidateNIK()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-25 21:34:04 --> Undefined index: id_mekanik_member
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\data yudhi M...', 57, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->getValidateNIK()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-25 22:05:09 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:06:20 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:06:46 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:06:47 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:08:50 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:09:43 --> Undefined property: CodeIgniter\HTTP\Response::$data
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\data yudhi M...', 93, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-25 22:10:22 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:10:59 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(92): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\data yudhi M...', 92, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-25 22:11:33 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:11:52 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:13:31 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:13:57 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:14:11 --> Undefined property: CodeIgniter\HTTP\Response::$data
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\data yudhi M...', 92, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-25 22:14:27 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:17:11 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:17:41 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:18:16 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(92): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\data yudhi M...', 92, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-25 22:18:33 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:19:02 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:19:50 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-25 22:21:19 --> Undefined property: stdClass::$data
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\data yudhi M...', 94, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-25 22:22:16 --> Undefined property: stdClass::$data
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\data yudhi M...', 94, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-25 22:22:47 --> Unknown column 'user_mekanik.id' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(90): CodeIgniter\Model->find(6)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(98): App\Models\AuthModel->register(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-25 22:24:05 --> Unknown column 'user_mekanik.id' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(90): CodeIgniter\Model->find(7)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(98): App\Models\AuthModel->register(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-25 22:24:57 --> Unknown column 'user_mekanik.id' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(90): CodeIgniter\Model->find(8)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(98): App\Models\AuthModel->register(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-25 22:26:00 --> Unknown column 'user_mekanik.id' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(90): CodeIgniter\Model->find(9)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(98): App\Models\AuthModel->register(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-25 22:28:06 --> Unknown column 'user_mekanik.id' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(90): CodeIgniter\Model->find('id_user_mekanik', 10)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(98): App\Models\AuthModel->register(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-25 22:30:01 --> Unknown column 'user_mekanik.id' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(91): CodeIgniter\Model->find(11)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(98): App\Models\AuthModel->register(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->register()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

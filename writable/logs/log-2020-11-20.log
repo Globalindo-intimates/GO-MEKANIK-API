@@ -1,0 +1,42 @@
+CRITICAL - 2020-11-20 01:50:55 --> Trying to get property 'id_mekanik_member' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 37, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-20 01:54:04 --> Array to string conversion
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\data yudhi M...', 25, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-20 01:54:39 --> Trying to get property 'id_mekanik_member' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 38, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-20 01:55:54 --> Trying to get property 'id_mekanik_member' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 38, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-20 01:57:08 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('UserMekanik/cre...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('UserMekanik/cre...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-20 01:57:23 --> Undefined index: id_mekanik_member
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\data yudhi M...', 38, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

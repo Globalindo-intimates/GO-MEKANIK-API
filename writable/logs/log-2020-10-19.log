@@ -1,0 +1,88 @@
+CRITICAL - 2020-10-19 00:00:19 --> There is no data to insert.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(31): CodeIgniter\Model->insert(NULL)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->create()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 00:07:53 --> There is no data to insert.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(31): CodeIgniter\Model->insert(NULL)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->create()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 00:13:14 --> There is no data to insert.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(31): CodeIgniter\Model->insert(NULL)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->create()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 00:46:43 --> There is no data to insert.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(31): CodeIgniter\Model->insert(NULL)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->create()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 00:47:42 --> There is no data to insert.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(31): CodeIgniter\Model->insert(NULL)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->create()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 00:50:26 --> There is no data to insert.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(31): CodeIgniter\Model->insert(NULL)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->create()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 00:52:39 --> There is no data to insert.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(31): CodeIgniter\Model->insert(NULL)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->create()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 00:53:46 --> There is no data to insert.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(31): CodeIgniter\Model->insert(NULL)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->create()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 00:57:00 --> There is no data to insert.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(31): CodeIgniter\Model->insert(NULL)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->create()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 01:16:04 --> There is no data to insert.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(31): CodeIgniter\Model->insert(NULL)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->create()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-19 01:17:28 --> There is no data to insert.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(700): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(31): CodeIgniter\Model->insert(NULL)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->create()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

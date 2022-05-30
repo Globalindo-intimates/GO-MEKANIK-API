@@ -1,0 +1,57 @@
+CRITICAL - 2021-01-04 06:42:08 --> Trying to get property 'count_date' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 86, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getUserOrdersFinished()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 06:42:28 --> Undefined index: count_date
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\data yudhi M...', 86, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getUserOrdersFinished()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 06:55:48 --> Trying to get property 'count_date' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 83, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getUserOrdersFinished()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 06:56:07 --> Trying to get property 'count_date' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 83, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getUserOrdersFinished()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 06:57:46 --> Trying to get property 'count_date' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 83, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getUserOrdersFinished()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 06:58:17 --> Undefined index: count_date
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\data yudhi M...', 83, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getUserOrdersFinished()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-04 07:03:04 --> array_push() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'D:\\data yudhi M...', 85, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(85): array_push('1', Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getUserOrdersFinished()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-04 07:03:39 --> Attempt to modify property 'count_date' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to modi...', 'D:\\data yudhi M...', 85, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getUserOrdersFinished()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

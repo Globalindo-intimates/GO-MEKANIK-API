@@ -1,0 +1,135 @@
+CRITICAL - 2020-12-28 01:36:19 --> Call to undefined method App\Models\ViewMachineSettledModel::getAll
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineSettledModel.php(24): CodeIgniter\Model->__call('getAll', Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(80): App\Models\ViewMachineSettledModel->userOrdersFinished('20')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getUserOrdersFinished()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-28 02:18:07 --> Call to undefined method App\Models\ViewMachineRepairingModel::lastQuery
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(35): CodeIgniter\Model->__call('lastQuery', Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-28 02:28:31 --> Not unique table/alias: 'viewmachinerepairing'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `id_user...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_user...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_user...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id_user...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(36): CodeIgniter\Model->__call('get', Array)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-28 02:30:03 --> Not unique table/alias: 'viewmachinerepairing'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `id_user...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_user...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_user...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id_user...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(36): CodeIgniter\Model->__call('get', Array)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-28 02:31:16 --> Call to undefined method App\Models\ViewMachineRepairingModel::getLastQuery
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(36): CodeIgniter\Model->__call('getLastQuery', Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-28 02:33:37 --> Call to undefined method App\Models\ViewMachineRepairingModel::getLastQuery
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(36): CodeIgniter\Model->__call('getLastQuery', Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-28 02:40:17 --> Not unique table/alias: 'viewmachinerepairing'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `id_user...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_user...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_user...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id_user...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(36): CodeIgniter\Model->__call('get', Array)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-12-28 18:49:22 --> Unknown column 'Cancel' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT id_user_...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_user_...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_user_...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(1814): CodeIgniter\Database\BaseConnection->query('SELECT id_user_...')
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(37): CodeIgniter\Model->__call('query', Array)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-28 18:51:10 --> Unknown column 'Cancel' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT id_user_...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_user_...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_user_...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(1814): CodeIgniter\Database\BaseConnection->query('SELECT id_user_...')
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(37): CodeIgniter\Model->__call('query', Array)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-28 18:59:14 --> Unknown column 'Cancel' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT id_user_...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_user_...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_user_...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(1814): CodeIgniter\Database\BaseConnection->query('SELECT id_user_...')
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(38): CodeIgniter\Model->__call('query', Array)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-28 19:00:56 --> Unknown column 'Cancel' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT id_user_...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_user_...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_user_...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(1814): CodeIgniter\Database\BaseConnection->query('SELECT id_user_...')
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(38): CodeIgniter\Model->__call('query', Array)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-28 22:47:27 --> Call to undefined method App\Models\ViewMachineRepairingModel::assArray
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(32): CodeIgniter\Model->__call('assArray', Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-28 22:48:15 --> Call to undefined method App\Models\ViewMachineRepairingModel::assArray
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineRepairingModel.php(32): CodeIgniter\Model->__call('assArray', Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(136): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('20')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

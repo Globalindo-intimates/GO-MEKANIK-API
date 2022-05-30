@@ -1,0 +1,55 @@
+CRITICAL - 2021-10-07 21:48:46 --> Unable to connect to the database.
+#0 C:\laragon\www\GO-MEKANIK-API\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id_mach...', Array, false)
+#2 C:\laragon\www\GO-MEKANIK-API\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\GO-MEKANIK-API\app\Models\ViewMachinesBreakdownModel.php(36): CodeIgniter\Model->findAll()
+#4 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineBreakdown.php(20): App\Models\ViewMachinesBreakdownModel->getMachinesBreakdown('Waiting...')
+#5 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineBreakdown->index()
+#6 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineBreakdown))
+#7 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-07 21:48:46 --> Unable to connect to the database.
+#0 C:\laragon\www\GO-MEKANIK-API\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id_mach...', Array, false)
+#2 C:\laragon\www\GO-MEKANIK-API\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\GO-MEKANIK-API\app\Models\ViewMachinesBreakdownModel.php(36): CodeIgniter\Model->findAll()
+#4 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineBreakdown.php(20): App\Models\ViewMachinesBreakdownModel->getMachinesBreakdown('Waiting...')
+#5 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineBreakdown->index()
+#6 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineBreakdown))
+#7 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-07 21:48:49 --> Unable to connect to the database.
+#0 C:\laragon\www\GO-MEKANIK-API\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id_mach...', Array, false)
+#2 C:\laragon\www\GO-MEKANIK-API\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\GO-MEKANIK-API\app\Models\ViewMachinesBreakdownModel.php(36): CodeIgniter\Model->findAll()
+#4 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineBreakdown.php(20): App\Models\ViewMachinesBreakdownModel->getMachinesBreakdown('Waiting...')
+#5 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineBreakdown->index()
+#6 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineBreakdown))
+#7 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-07 21:48:58 --> Unable to connect to the database.
+#0 C:\laragon\www\GO-MEKANIK-API\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `id_mach...', Array, false)
+#2 C:\laragon\www\GO-MEKANIK-API\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\GO-MEKANIK-API\app\Models\ViewMachinesBreakdownModel.php(36): CodeIgniter\Model->findAll()
+#4 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineBreakdown.php(20): App\Models\ViewMachinesBreakdownModel->getMachinesBreakdown('Waiting...')
+#5 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineBreakdown->index()
+#6 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineBreakdown))
+#7 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-10-07 21:49:00 --> Unable to connect to the database.
+#0 C:\laragon\www\GO-MEKANIK-API\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT `Nama`, ...', Array, false)
+#2 C:\laragon\www\GO-MEKANIK-API\system\Model.php(404): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\GO-MEKANIK-API\app\Models\ViewUserMekanikModel.php(18): CodeIgniter\Model->find()
+#4 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\UserMekanik.php(18): App\Models\ViewUserMekanikModel->getById('83')
+#5 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\UserMekanik->getById()
+#6 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\UserMekanik))
+#7 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,105 @@
+CRITICAL - 2021-02-05 02:01:16 --> Too few arguments to function App\Models\ViewMachineSettledModel::totalUserOrdersFinished(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php on line 70 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(70): App\Models\ViewMachineSettledModel->totalUserOrdersFinished('4', '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getTotalUserOrdersFinished()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:07:08 --> Too few arguments to function App\Models\ViewMachineSettledModel::totalUserOrdersFinished(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php on line 70 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(70): App\Models\ViewMachineSettledModel->totalUserOrdersFinished(NULL, '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getTotalUserOrdersFinished()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:08:06 --> Too few arguments to function App\Models\ViewMachineSettledModel::totalUserOrdersFinished(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php on line 70 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(70): App\Models\ViewMachineSettledModel->totalUserOrdersFinished(NULL, '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getTotalUserOrdersFinished()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:11:45 --> Too few arguments to function App\Models\ViewMachineSettledModel::totalUserOrdersFinished(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php on line 71 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(71): App\Models\ViewMachineSettledModel->totalUserOrdersFinished(NULL, '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getTotalUserOrdersFinished()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:11:55 --> Too few arguments to function App\Models\ViewMachineSettledModel::totalUserOrdersFinished(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php on line 71 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(71): App\Models\ViewMachineSettledModel->totalUserOrdersFinished(NULL, '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getTotalUserOrdersFinished()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:12:29 --> Too few arguments to function App\Models\ViewMachineSettledModel::totalUserOrdersFinished(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php on line 71 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(71): App\Models\ViewMachineSettledModel->totalUserOrdersFinished('4', '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getTotalUserOrdersFinished()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:13:17 --> Too few arguments to function App\Models\ViewMachineSettledModel::totalUserOrdersFinished(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php on line 71 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(71): App\Models\ViewMachineSettledModel->totalUserOrdersFinished(NULL, '"2"')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getTotalUserOrdersFinished()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:18:14 --> Too few arguments to function App\Models\ViewMachineRepairingModel::getUserCanceledOrders(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php on line 142 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(142): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('4', '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:26:36 --> Too few arguments to function App\Models\ViewMachineRepairingModel::getUserCanceledOrders(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php on line 142 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(142): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('4', '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:28:14 --> Too few arguments to function App\Models\ViewMachineRepairingModel::getUserCanceledOrders(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php on line 142 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(142): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('4', '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:29:33 --> Too few arguments to function App\Models\ViewMachineRepairingModel::getUserCanceledOrders(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php on line 142 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(142): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('4', '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:33:13 --> Too few arguments to function App\Models\ViewMachineRepairingModel::getUserCanceledOrders(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php on line 142 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(142): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('4', '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:35:16 --> Too few arguments to function App\Models\ViewMachineRepairingModel::getUserCanceledOrders(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php on line 142 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(142): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('4', '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:38:19 --> Too few arguments to function App\Models\ViewMachineRepairingModel::getUserCanceledOrders(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php on line 142 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(142): App\Models\ViewMachineRepairingModel->getUserCanceledOrders('4', '2')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrders()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-05 02:45:25 --> Too few arguments to function App\Models\ViewMachineRepairingModel::userGetCanceledOrdersDetail(), 2 passed in C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php on line 153 and exactly 3 expected
+#0 C:\laragon\www\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(153): App\Models\ViewMachineRepairingModel->userGetCanceledOrdersDetail('4', '1')
+#1 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getUserCanceledOrdersDetail()
+#2 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 C:\laragon\www\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,462 @@
+CRITICAL - 2020-11-27 21:48:02 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 75, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->getValidateNIK2()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 21:48:27 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 75, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->getValidateNIK2()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 21:51:52 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 75, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->getValidateNIK2()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 21:54:49 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 75, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->getValidateNIK2()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 21:58:14 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 75, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->getValidateNIK2()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 21:58:36 --> Trying to get property 'id_user_mekanik' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 75, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->getValidateNIK2()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-27 22:02:36 --> Duplicate entry '5' for key 'PRIMARY'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(110): CodeIgniter\Model->save(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(138): App\Models\AuthModel->simpanPassword(Array)
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-11-27 22:02:46 --> Duplicate entry '5' for key 'PRIMARY'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(110): CodeIgniter\Model->save(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(138): App\Models\AuthModel->simpanPassword(Array)
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-11-27 22:07:39 --> Duplicate entry '5' for key 'PRIMARY'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(110): CodeIgniter\Model->save(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(138): App\Models\AuthModel->simpanPassword(Array)
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-11-27 22:07:49 --> Duplicate entry '5' for key 'PRIMARY'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(110): CodeIgniter\Model->save(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(138): App\Models\AuthModel->simpanPassword(Array)
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-11-27 22:13:15 --> Duplicate entry '5' for key 'PRIMARY'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(110): CodeIgniter\Model->save(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(138): App\Models\AuthModel->simpanPassword(Array)
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-11-27 22:13:26 --> Duplicate entry '5' for key 'PRIMARY'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(110): CodeIgniter\Model->save(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(138): App\Models\AuthModel->simpanPassword(Array)
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-11-27 22:16:24 --> Unknown column 'user_mekanik.id' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `user_me...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_me...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_me...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `user_me...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(110): CodeIgniter\Model->update(Array, Array)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(138): App\Models\AuthModel->simpanPassword(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-27 22:17:34 --> Unknown column 'user_mekanik.id' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `user_me...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_me...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_me...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `user_me...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(110): CodeIgniter\Model->update(Array, Array)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(138): App\Models\AuthModel->simpanPassword(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-27 22:21:34 --> Unknown column 'user_mekanik.id' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `user_me...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_me...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_me...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `user_me...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(110): CodeIgniter\Model->update(Array, Array)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-27 22:21:42 --> Unknown column 'user_mekanik.id' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `user_me...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_me...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_me...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `user_me...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(110): CodeIgniter\Model->update(Array, Array)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-27 22:28:25 --> Duplicate entry '5' for key 'PRIMARY'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(111): CodeIgniter\Model->save(Array)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2020-11-27 22:33:10 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:36:00 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:38:27 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:40:06 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:41:07 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:41:52 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:42:29 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(111): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:43:05 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(111): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:47:48 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(113): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:49:54 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:50:25 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:51:13 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 22:53:16 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(144): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:02:50 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(146): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:16:57 --> Array to string conversion
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(883): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\data yudhi M...', 883, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->update(Array, Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(147): App\Models\AuthModel->simpanPassword('5', Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:18:44 --> Array to string conversion
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(883): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\data yudhi M...', 883, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->update(Array, Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(147): App\Models\AuthModel->simpanPassword('5', Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:22:06 --> Array to string conversion
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(883): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\data yudhi M...', 883, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->update(Array, Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(147): App\Models\AuthModel->simpanPassword('5', Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:25:45 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(138): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:27:10 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(138): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:32:54 --> Array to string conversion
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(883): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\data yudhi M...', 883, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->update(Array, Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(139): App\Models\AuthModel->simpanPassword('5', Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:35:17 --> Array to string conversion
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(883): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\data yudhi M...', 883, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->update(Array, Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(139): App\Models\AuthModel->simpanPassword('5', Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:36:39 --> Array to string conversion
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(883): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\data yudhi M...', 883, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(112): CodeIgniter\Model->update(Array, Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(139): App\Models\AuthModel->simpanPassword('5', Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:40:07 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(121): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(141): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:43:30 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(121): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(141): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:43:35 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(121): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(141): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:43:36 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(121): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(141): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:43:37 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(121): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(141): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:43:38 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(121): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(141): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:43:38 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(121): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(141): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 23:43:40 --> Illegal offset type in isset or empty
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'D:\\data yudhi M...', 568, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\AuthModel.php(121): CodeIgniter\Model->save(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\Auth.php(141): App\Models\AuthModel->simpanPassword(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\Auth->simpanPassword()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Auth))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

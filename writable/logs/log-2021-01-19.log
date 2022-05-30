@@ -1,0 +1,21 @@
+CRITICAL - 2021-01-19 01:34:03 --> Too few arguments to function App\Models\ViewMachineRepairingModel::totalUserCanceledOrders(), 1 passed in D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php on line 132 and exactly 2 expected
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(132): App\Models\ViewMachineRepairingModel->totalUserCanceledOrders('20')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getTotalUserCanceledOrders()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 01:36:51 --> Too few arguments to function App\Models\ViewMachineRepairingModel::totalUserCanceledOrders(), 1 passed in D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php on line 132 and exactly 2 expected
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(132): App\Models\ViewMachineRepairingModel->totalUserCanceledOrders('20')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getTotalUserCanceledOrders()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-19 01:40:32 --> Too few arguments to function App\Models\ViewMachineRepairingModel::totalUserCanceledOrders(), 1 passed in D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php on line 132 and exactly 2 expected
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(132): App\Models\ViewMachineRepairingModel->totalUserCanceledOrders('20')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->getTotalUserCanceledOrders()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

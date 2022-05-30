@@ -1,0 +1,121 @@
+CRITICAL - 2020-11-18 04:39:45 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_mekanik_member
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\data yudhi M...', 25, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 04:40:36 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_mekanik_member
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\data yudhi M...', 25, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 08:06:07 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_mekanik_member
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\data yudhi M...', 25, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 08:07:31 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_mekanik_member
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\data yudhi M...', 25, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 08:11:24 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-18 08:13:47 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(24): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\data yudhi M...', 24, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 18:04:39 --> Unable to connect to the database.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\Line.php(12): CodeIgniter\Model->findAll()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\Line->index()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Line))
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-18 18:35:39 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_mekanik_member
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\data yudhi M...', 33, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 18:45:42 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id_mekanik_member
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\data yudhi M...', 33, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 18:46:32 --> Trying to get property 'id_mekanik_member' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 33, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 19:39:24 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 36, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 19:39:24 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 36, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 19:41:15 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 36, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 20:00:22 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 36, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 20:00:22 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 36, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 20:00:35 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 36, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-18 20:00:41 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\UserMekanik.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 36, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\UserMekanik->create()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserMekanik))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

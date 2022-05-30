@@ -1,0 +1,26 @@
+CRITICAL - 2021-01-05 21:41:48 --> Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'viewmachinesettled.date' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(id...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineSettledModel.php(30): CodeIgniter\Model->findAll()
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(80): App\Models\ViewMachineSettledModel->userOrdersFinished('20')
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getUserOrdersFinished()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-01-05 21:43:04 --> In aggregated query without GROUP BY, expression #2 of SELECT list contains nonaggregated column 'viewmachinesettled.date'; this is incompatible with sql_mode=only_full_group_by
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT COUNT(id...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\ViewMachineSettledModel.php(29): CodeIgniter\Model->findAll()
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(80): App\Models\ViewMachineSettledModel->userOrdersFinished('20')
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->getUserOrdersFinished()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

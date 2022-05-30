@@ -1,0 +1,27 @@
+CRITICAL - 2020-12-16 23:08:35 --> There is no data to update.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\MekanikRepairingModel.php(33): CodeIgniter\Model->update(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(67): App\Models\MekanikRepairingModel->cancelRepairing(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->cancelMekanikRepairing()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-16 23:14:32 --> There is no data to update.
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\MekanikRepairingModel.php(33): CodeIgniter\Model->update(Array)
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(67): App\Models\MekanikRepairingModel->cancelRepairing(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->cancelMekanikRepairing()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-16 23:23:25 --> Argument 1 passed to CodeIgniter\Model::doProtectFields() must be of the type array, string given, called in D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php on line 870
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(870): CodeIgniter\Model->doProtectFields('Cancel')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\MekanikRepairingModel.php(33): CodeIgniter\Model->update(Array, 'Cancel')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(67): App\Models\MekanikRepairingModel->cancelRepairing(Array)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->cancelMekanikRepairing()
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

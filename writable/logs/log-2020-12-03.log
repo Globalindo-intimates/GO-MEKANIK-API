@@ -1,0 +1,60 @@
+CRITICAL - 2020-12-03 10:34:03 --> Call to a member function simpanMekanikRepairing() on null
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->simpanMekanikRepairing()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 10:37:10 --> Call to a member function simpanMekanikRepairing() on null
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->simpanMekanikRepairing()
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-03 10:56:09 --> Undefined index: id_machine_breakdown
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\data yudhi M...', 31, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->simpanMekanikRepairing()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 10:57:18 --> Trying to get property 'id_machine_breakdown' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 31, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->simpanMekanikRepairing()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 10:58:05 --> Trying to get property 'id_machine_breakdown' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 33, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->simpanMekanikRepairing()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 10:58:35 --> Trying to get property 'id_machine_breakdown' of non-object
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\data yudhi M...', 33, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->simpanMekanikRepairing()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 10:59:51 --> Undefined offset: 0
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MekanikRepairing.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\data yudhi M...', 33, Array)
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MekanikRepairing->simpanMekanikRepairing()
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MekanikRepairing))
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-03 14:20:27 --> Unknown column 'nik' in 'where clause'
+#0 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Models\SpvModel.php(14): CodeIgniter\Model->first()
+#6 D:\data yudhi MIS\projects\GO-MEKANIK-API\app\Controllers\API\MachineSettled.php(34): App\Models\SpvModel->getByNIK('012345')
+#7 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(918): App\Controllers\API\MachineSettled->simpanMachineSettled()
+#8 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\MachineSettled))
+#9 D:\data yudhi MIS\projects\GO-MEKANIK-API\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\data yudhi MIS\projects\GO-MEKANIK-API\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
