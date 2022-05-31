@@ -15,8 +15,9 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  * Router Setup
  * --------------------------------------------------------------------
  */
-$routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Home');
+$routes->setDefaultNamespace('App\Controllers\API');
+// $routes->setDefaultNamespace('App\Controllers');
+$routes->setDefaultController('MachineBreakdown');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -31,7 +32,13 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
-$routes->resource('merk');
+// $routes->resource('merk');
+
+// $routes->resource('API/MachineBreakdown');
+// $routes->get('MachineBreakdown/', 'MachineBreakdown::index');
+$routes->get('MachineBreakdown/(:alpha)', 'MachineBreakdown::getByStatus/$1');
+// $routes->resource('merk');
+// $routes->get('merk/', 'Merk::index');
 
 /**
  * --------------------------------------------------------------------
