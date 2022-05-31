@@ -21,10 +21,13 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost';
+	// public $baseURL = 'http://localhost';
+
 	// public $baseURL = 'http://localhost:8080';
+
 	// public $baseURL = 'http://localhost:8080/GO-MEKANIK-API/public';
-	// public $baseURL = 'http://192.168.10.3';
+	
+	public $baseURL = 'http://192.168.10.3';
 
 	/*
 	|--------------------------------------------------------------------------
