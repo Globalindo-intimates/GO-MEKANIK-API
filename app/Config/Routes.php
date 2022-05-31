@@ -38,10 +38,10 @@ $routes->setAutoRoute(true);
 // $routes->get('MachineBreakdown/', 'MachineBreakdown::index');
 // $routes->resource('MachineBreakdown');
 
-// $routes->get('/', 'MachineBreakdown::getByStatus/$1');
 
 // $routes->resource('merk');
 $routes->get('/', 'MachineBreakdown::index');
+$routes->get('/', 'MachineBreakdown::getByStatus/$1');
 
 /**
  * --------------------------------------------------------------------
