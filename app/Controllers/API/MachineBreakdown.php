@@ -6,7 +6,7 @@ use App\Models\MachineBreakdownModel;
 use App\Models\ViewMachinesBreakdownModel;
 use CodeIgniter\API\ResponseTrait;
 
-class MachineBreakdown extends ResourceController{
+class Machinebreakdown extends ResourceController{
     protected $machineBreakdown;
 	protected $viewMachineBreakdown;
 
