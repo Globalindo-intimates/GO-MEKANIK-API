@@ -15,9 +15,9 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
  * Router Setup
  * --------------------------------------------------------------------
  */
-// $routes->setDefaultNamespace('App\Controllers\API');
-$routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Merk');
+$routes->setDefaultNamespace('App\Controllers\API');
+// $routes->setDefaultNamespace('App\Controllers');
+$routes->setDefaultController('MachineBreakdown');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -41,7 +41,7 @@ $routes->setAutoRoute(true);
 // $routes->get('/', 'MachineBreakdown::getByStatus/$1');
 
 // $routes->resource('merk');
-$routes->get('Merk/', 'Merk::index');
+$routes->get('/', 'MachineBreakdown::index');
 
 /**
  * --------------------------------------------------------------------
