@@ -4,10 +4,13 @@ namespace App\Controllers\API;
 use CodeIgniter\RESTful\ResourceController;
 use App\Models\MachineBreakdownModel;
 use App\Models\ViewMachinesBreakdownModel;
+use CodeIgniter\API\ResponseTrait;
 
 class MachineBreakdown extends ResourceController{
     protected $machineBreakdown;
 	protected $viewMachineBreakdown;
+
+    use ResponseTrait;
 
     public function __construct()
     {
@@ -67,11 +70,12 @@ class MachineBreakdown extends ResourceController{
             $rst = $this->viewMachineBreakdown->getByStatus($status);
             if($rst){
                 return $this->respond($rst, 200);
+            }else{
+                return $this->respond([
+                    'status' => 'empty',
+                    'message' => 'Data kosong'
+                ], 200);            
             }
-            return $this->respond([
-                'status' => 'empty',
-                'message' => 'Data kosong'
-            ], 200);            
         }catch(\Exception $e){
             die($e->getMessage());
         }
