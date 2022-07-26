@@ -35,7 +35,7 @@ class Database extends \CodeIgniter\Database\Config
 		'hostname' => '192.168.10.81',
 		'username' => 'manager',
 		// 'password' => '@Gl0b4l1nd0',
-		'password' => '@Intimates@2020',
+		'password' => 'Intimates@2020',
 		// 'database' => '',
 		'database' => 'gomekanik',
 		'DBDriver' => 'MySQLi',
