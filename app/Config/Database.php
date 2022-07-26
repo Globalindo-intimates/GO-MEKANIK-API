@@ -31,10 +31,13 @@ class Database extends \CodeIgniter\Database\Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => '192.168.10.3',
+		// 'hostname' => '192.168.10.3',
+		'hostname' => '192.168.10.81',
 		'username' => 'manager',
-		'password' => '@Gl0b4l1nd0',
-		'database' => 'productionreport',
+		// 'password' => '@Gl0b4l1nd0',
+		'password' => '@Intimates@2020',
+		// 'database' => '',
+		'database' => 'gomekanik',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,
@@ -54,9 +57,11 @@ class Database extends \CodeIgniter\Database\Config
 	
 	public $db2 = [
 		'DSN'      => '',
-		'hostname' => '192.168.10.3',
+		// 'hostname' => '192.168.10.3',
+		'hostname' => '192.168.10.81',
 		'username' => 'manager',
-		'password' => '@Gl0b4l1nd0',
+		// 'password' => '@Gl0b4l1nd0',
+		'password' => 'Intimates@2020',
 		'database' => 'ams',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
