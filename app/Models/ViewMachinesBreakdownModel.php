@@ -4,7 +4,7 @@ use CodeIgniter\Model;
 
 class ViewMachinesBreakdownModel extends Model{
     protected $DBGroup = 'default';    
-    protected $table = 'viewmachinesbreakdown';
+    protected $table = 'viewmachinesbreakdown1';
     protected $primaryKey = 'id_machine_breakdown';
     protected $allowedFields = [
         'id_machine_breakdown',
