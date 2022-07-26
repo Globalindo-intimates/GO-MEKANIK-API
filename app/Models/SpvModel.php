@@ -4,6 +4,7 @@ namespace App\Models;
 use CodeIgniter\Model;
 
 class SpvModel extends Model{
+    protected $DBGroup = 'dbPR';
     protected $table = 'spv';
     protected $primaryKey = 'id_spv';
     protected $allowedFields = [
